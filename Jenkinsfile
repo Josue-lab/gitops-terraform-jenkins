@@ -20,6 +20,7 @@ try {
       ]]) {
         ansiColor('xterm') {
           bat 'terraform init'
+          sh 'terraform init'
         }
       }
     }
